@@ -274,3 +274,5 @@ if st.button("Run"):
 
 st.sidebar.title("About")
 st.sidebar.info("This application predicts cryptocurrency and stock prices using various machine learning models.")
+st.sidebar.info('''For running the app for the first time plz select "Save Model" to actually train the model for the available data 
+                and then select "Load Model" to use the trained model for prediction.''')
